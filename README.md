@@ -21,7 +21,7 @@ Each section appears directly after each other in the same order they appear in 
 
 ### The Header: <br/>
 The header is composed of 9 sections: <br/>
-The first two bytes are the file magic and read "PM". <br/>
+The first 2 bytes are the file magic and read "PM". <br/>
 The next 4 bytes are the width of the image in little endian. <br/>
 The next 4 bytes are the height of the image in little endian. <br/>
 The next 4 bytes are the length of the blue flagmap in little endian. <br/>
